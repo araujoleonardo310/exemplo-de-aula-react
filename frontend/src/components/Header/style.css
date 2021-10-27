@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    padding: 0.8rem 5%;
+    
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 1px 1px 10px #b6b6b6;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.header li:last-child{
+    margin-right: 0rem;
+}
+
+.header h1{
+    font-weight: 500;
+}
